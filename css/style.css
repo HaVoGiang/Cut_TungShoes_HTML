@@ -184,7 +184,7 @@ header .header-slide .slide img{
     height: 460px;
 }
 .slide{
-    margin: 30px 0 0 10px;
+    margin: 30px 0 0 0px;
 }
 .slide .owl-prev>span{
     position: absolute;
@@ -210,17 +210,15 @@ header .header-slide .slide img{
     background-color: #3cb38d;
 }
 .header-quangcao{
+    
+}
+
+.header-quangcao .quangcao1 {
+    
+}
+.header-quangcao a img{
+    width: 100%;
+}
+section .product-list{
     position: relative;
 }
-.header-quangcao img{
-}
-.header-quangcao .quangcao1 {
-    position: absolute;
-    top: -20px;
-    left: 0px;
-} 
-.header-quangcao .quangcao2 {
-    position: absolute;
-    top: -20px;
-    right: 0;
-} 
