@@ -209,16 +209,96 @@ header .header-slide .slide img{
 .slide .owl-next>span:hover,.slide .owl-prev>span:hover{
     background-color: #3cb38d;
 }
-.header-quangcao{
-    
-}
-
-.header-quangcao .quangcao1 {
-    
-}
 .header-quangcao a img{
     width: 100%;
 }
-section .product-list{
+.product-list .top-status{
+    margin: 33px 0;
+    border-top: solid 2px #cecece;
+    font-size: 10px;
     position: relative;
+}
+.product-list .top-status>h2{
+    position: absolute;
+    top: -13px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #404040;
+    float: left;
+    background-color: #fff;
+    padding-right: 10px;
+    border-right: solid 2px #cecece;
+}
+.top-status .btn-nav {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    background-color: #fff;
+    padding-left: 10px;
+}
+.top-status .btn-nav>a{
+    border: solid 2px #313131;
+    color: #313131;
+    padding: 0 8px;
+    margin-left : 10px;
+    display: inline-block;
+    background-color: #fff;
+}
+.top-status .btn-nav>a:hover{
+    color: #fff;
+    background-color: #3cb38d;
+}
+.product-hot{
+}
+.product-hot .item{
+    width: 255px;
+    height: 390px;
+    background-color: #f0f0f0;
+}
+.product-hot .item .item-detail{
+    margin: 0 10px 22px 10px;
+}
+.product-hot .item .item-detail .discount{
+    text-align: center;
+    color: #fff;
+    font-family: 'Arial';
+    font-size: 12px;
+    padding: 10px 0;
+}
+.product-hot .item .item-detail .discount>span{
+    background-color: #e65156;
+    padding: 12px 15px;
+}
+.product-hot .item .item-detail>img{
+    width: 100%;
+}
+.product-hot .item .item-detail>h2{
+    font-family: 'Arial';
+    font-size: 16px;
+    font-weight: 700;
+    color: #404040;
+}
+.product-hot .item .item-detail .number-size>p{
+    font-family: 'Arial';
+    font-size: 13px;
+    float: left;
+    border: solid 1px #cecece;
+    margin: 0 2.5px;
+    padding: 0 5px; 
+}
+.product-hot .item .item-detail .number-size>p:first-child{
+    border: none;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+.product-hot .item .item-detail .bottom-card>a{
+    font-family: 'Arial';
+    font-size: 16px;
+}
+.product-hot .item .item-detail .bottom-card>a:first-child{
+
+}
+.product-hot .item .item-detail .bottom-card>a:last-child{
+    text-transform: uppercase; 
 }
